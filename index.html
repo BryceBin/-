@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keepstore SEO 增长诊断工作台</title>
+  <meta name="description" content="面向 SEO 小白的 Keepstore.com 独立站 SEO 诊断与优化工作台：用截图式定位图、优先级路线图、页面模板和执行清单讲清楚每一步。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="rail" aria-label="页面章节导航">
+    <a href="#top" class="rail-logo" aria-label="回到顶部">K</a>
+    <a href="#evidence">定位图</a>
+    <a href="#issues">问题库</a>
+    <a href="#playbooks">怎么改</a>
+    <a href="#roadmap">路线图</a>
+    <a href="#checklist">清单</a>
+  </aside>
+
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top"><span>Keepstore</span> SEO Growth Desk</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">菜单</button>
+      <div class="nav-links" id="mobileNav">
+        <a href="#evidence">截图定位</a>
+        <a href="#issues">优化空间</a>
+        <a href="#playbooks">改法模板</a>
+        <a href="#roadmap">执行路线</a>
+      </div>
+    </nav>
+
+    <section class="hero-layout">
+      <div class="hero-copy">
+        <p class="eyebrow">重新设计版 · 面向完全不懂 SEO 的独立站团队</p>
+        <h1>把 Keepstore SEO 问题变成一张可执行的增长地图</h1>
+        <p>这版不再只是文字报告，而是一个“诊断工作台”：用页面定位图告诉你问题在哪里，用优先级告诉你先改什么，用模板告诉你具体怎么写。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#evidence">先看页面定位图</a>
+          <a class="btn secondary" href="#roadmap">直接看 90 天计划</a>
+        </div>
+      </div>
+      <div class="command-card" aria-label="SEO 总览仪表盘">
+        <div class="card-topline"><span>SEO Readiness</span><b>42/100</b></div>
+        <div class="radar" role="img" aria-label="SEO 六维雷达图">
+          <span style="--x:50%;--y:8%">技术</span>
+          <span style="--x:88%;--y:30%">内容</span>
+          <span style="--x:82%;--y:76%">转化</span>
+          <span style="--x:18%;--y:76%">信任</span>
+          <span style="--x:12%;--y:30%">结构</span>
+          <div class="radar-shape"></div>
+        </div>
+        <div class="risk-grid">
+          <div><strong>9</strong><span>P0/P1 问题</span></div>
+          <div><strong>4</strong><span>页面类型</span></div>
+          <div><strong>90</strong><span>天路线</span></div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div class="section-head">
+        <p class="eyebrow">先建立共同语言</p>
+        <h2>小白版理解：SEO 就是让“人”和“搜索引擎”都看懂</h2>
+        <p>Google 官方也强调，SEO 是帮助搜索引擎理解内容，并帮助用户通过搜索结果判断是否访问网站。对独立站来说，最终目标不是“排名好看”，而是搜索用户能找到、看懂、信任并购买。</p>
+      </div>
+      <div class="funnel">
+        <article><span>1</span><h3>被发现</h3><p>sitemap、链接、索引、robots 不阻挡。</p></article>
+        <article><span>2</span><h3>被理解</h3><p>标题、正文、分类介绍、图片 alt 说清楚卖什么。</p></article>
+        <article><span>3</span><h3>被信任</h3><p>评价、配送、退换、品牌故事、联系方式完整。</p></article>
+        <article><span>4</span><h3>被购买</h3><p>产品卖点、FAQ、规格、使用场景降低决策成本。</p></article>
+      </div>
+    </section>
+
+    <section class="section evidence" id="evidence">
+      <div class="section-head split">
+        <div>
+          <p class="eyebrow">页面截图式定位</p>
+          <h2>每个优化点都尽量对应到独立站页面位置</h2>
+          <p>当前云端环境没有浏览器截图能力，因此这里先放“基于公开抓取内容复刻的页面定位图”。它的目的和截图一样：让运营能知道问题出现在首页、产品页、集合页还是博客页的哪个区域；后续可直接把真实截图替换到同名文件。</p>
+        </div>
+        <div class="note-card"><b>怎么看？</b><span>红色是必须先修，蓝色是内容优化，绿色是建议新增模块。</span></div>
+      </div>
+
+      <div class="shot-tabs" role="tablist" aria-label="页面定位图切换">
+        <button class="shot-tab active" data-shot="home" type="button">首页</button>
+        <button class="shot-tab" data-shot="product" type="button">产品页</button>
+        <button class="shot-tab" data-shot="collection" type="button">集合页</button>
+        <button class="shot-tab" data-shot="blog" type="button">博客</button>
+        <button class="shot-tab" data-shot="tech" type="button">技术工作台</button>
+      </div>
+
+      <div class="shot-stage">
+        <figure class="shot-panel active" id="shot-home">
+          <img src="assets/page-shots/home-audit.svg" alt="首页 SEO 问题定位图" />
+          <figcaption>首页：首屏标题抽象、图片文本过多、底部链接像模板占位。</figcaption>
+        </figure>
+        <figure class="shot-panel" id="shot-product">
+          <img src="assets/page-shots/product-audit.svg" alt="产品页 SEO 问题定位图" />
+          <figcaption>产品页：重复口号污染页面、详情只有图片、信任模块仍是占位文案。</figcaption>
+        </figure>
+        <figure class="shot-panel" id="shot-collection">
+          <img src="assets/page-shots/collection-audit.svg" alt="集合页 SEO 问题定位图" />
+          <figcaption>集合页：产品可见，但缺少分类介绍、选购指南和 FAQ。</figcaption>
+        </figure>
+        <figure class="shot-panel" id="shot-blog">
+          <img src="assets/page-shots/blog-audit.svg" alt="博客页 SEO 问题定位图" />
+          <figcaption>博客：语法问题、健康主题泛化、缺少通向产品/集合页的内链。</figcaption>
+        </figure>
+        <figure class="shot-panel" id="shot-tech">
+          <img src="assets/page-shots/technical-audit.svg" alt="技术 SEO 工作台定位图" />
+          <figcaption>技术：Search Console、商品结构化数据、Core Web Vitals、Merchant Center 形成闭环。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="issues">
+      <div class="section-head split">
+        <div>
+          <p class="eyebrow">补充研究后的优化空间</p>
+          <h2>从“页面问题”升级到“增长机会库”</h2>
+          <p>下面每张卡片都标注了优先级、影响页面、为什么影响 SEO、以及小白可以怎么验收。</p>
+        </div>
+        <div class="filters" aria-label="问题筛选">
+          <button class="filter active" data-filter="all" type="button">全部</button>
+          <button class="filter" data-filter="p0" type="button">P0 先救火</button>
+          <button class="filter" data-filter="content" type="button">内容</button>
+          <button class="filter" data-filter="trust" type="button">信任</button>
+          <button class="filter" data-filter="tech" type="button">技术</button>
+        </div>
+      </div>
+
+      <div class="issue-grid">
+        <article class="issue p0 content" data-tags="p0 content"><span class="priority p0">P0</span><h3>重复 slogan 污染页面主题</h3><p>产品页、集合页顶部多次出现 “There is nothing born...” 这类重复文本，会让搜索引擎抓取重点偏离商品主题。</p><b>验收：</b><small>每个页面只保留 0–1 次品牌口号，首屏先出现页面主标题。</small></article>
+        <article class="issue p0 content" data-tags="p0 content"><span class="priority p0">P0</span><h3>产品详情依赖图片，缺少可读文本</h3><p>跳绳产品详情公开抓取中主要是 Image，Google 和用户都难以快速理解规格、卖点、适用人群。</p><b>验收：</b><small>前 20 个核心产品每页补 500–800 字英文描述 + FAQ + 规格表。</small></article>
+        <article class="issue p0 trust" data-tags="p0 trust"><span class="priority p0">P0</span><h3>占位文案降低购买信任</h3><p>“Short content about your store” 出现在配送、退款、客服、安全支付等模块，是非常明显的未完工信号。</p><b>验收：</b><small>所有信任模块改成真实政策、时效、联系方式和支付说明。</small></article>
+        <article class="issue p1 content" data-tags="content"><span class="priority p1">P1</span><h3>集合页缺少分类介绍</h3><p>Men's clothing 有 14 个产品和筛选，但没有解释“适合谁、如何选择、覆盖哪些关键词”。</p><b>验收：</b><small>8 个主集合页每页补 200–400 字分类文案 + 3 个 FAQ。</small></article>
+        <article class="issue p1 trust" data-tags="trust"><span class="priority p1">P1</span><h3>底部链接像模板链接</h3><p>Our Story、Team、Media、Investors 等如果没有真实页面，会让站点看起来不完整。</p><b>验收：</b><small>无内容链接删除；保留链接必须有真实页面、标题和正文。</small></article>
+        <article class="issue p1 tech" data-tags="tech"><span class="priority p1">P1</span><h3>商品结构化数据需要增强</h3><p>电商页应明确传递价格、库存、配送、退换、评分等信息，争取商品富结果和购物展示资格。</p><b>验收：</b><small>Rich Results Test 无关键错误，Merchant Center 商品 feed 可用。</small></article>
+        <article class="issue p1 content" data-tags="content"><span class="priority p1">P1</span><h3>博客主题和商业路径断开</h3><p>博客有减脂、睡眠、跳绳主题，但需要变成内容集群并自然链接到商品和集合页。</p><b>验收：</b><small>每篇文章 3–5 个内链，至少 3 个内容集群：跳绳、跑步服饰、恢复。</small></article>
+        <article class="issue p2 tech" data-tags="tech"><span class="priority p2">P2</span><h3>图片性能与移动端体验风险</h3><p>首页和详情页图片很多，可能影响 LCP、CLS、移动端加载和交互体验。</p><b>验收：</b><small>首屏图压缩为 WebP/AVIF，图片设宽高，非首屏 lazy-load。</small></article>
+        <article class="issue p2 trust" data-tags="trust"><span class="priority p2">P2</span><h3>健康类内容需要 E-E-A-T 包装</h3><p>减脂、睡眠、疾病运动建议属于高敏感内容，必须更谨慎，避免夸张承诺。</p><b>验收：</b><small>补作者、更新时间、参考来源、免责声明，并减少绝对化表述。</small></article>
+      </div>
+    </section>
+
+    <section class="section playbooks" id="playbooks">
+      <div class="section-head">
+        <p class="eyebrow">具体怎么改</p>
+        <h2>给小白可直接照着执行的页面改造模板</h2>
+      </div>
+      <div class="playbook-grid">
+        <article class="playbook wide">
+          <div><span class="tag">首页</span><h3>首页不只讲品牌口号，要讲“我卖什么”</h3></div>
+          <div class="before-after"><div><b>现在的问题</b><p>DISCIPLINE SETS ME FREE 有品牌感，但搜索用户不知道这里卖健身器材、服饰还是课程。</p></div><div><b>建议写法</b><p>H1：Fitness Gear & Workout Essentials for Home Training<br>副标题：Shop workout gear, running apparel, yoga accessories and recovery tools.</p></div></div>
+        </article>
+        <article class="playbook">
+          <span class="tag">产品页</span><h3>500–800 字产品描述公式</h3><ol><li>一句话说明产品是什么。</li><li>说明适合谁。</li><li>列 5 个卖点。</li><li>写规格表。</li><li>写 4 个 FAQ。</li><li>链接到相关集合页和博客。</li></ol>
+        </article>
+        <article class="playbook">
+          <span class="tag">集合页</span><h3>分类页文案结构</h3><ol><li>第一段：这个分类解决什么需求。</li><li>第二段：怎么选择。</li><li>第三段：推荐使用场景。</li><li>FAQ：尺码、材质、训练场景。</li></ol>
+        </article>
+        <article class="playbook">
+          <span class="tag">博客</span><h3>内容集群打法</h3><p>不要随机写健康文章；围绕商品建主题。例如“跳绳入门 → 加重跳绳对比 → 10 分钟训练 → 跳绳产品页”。</p></article>
+        <article class="playbook">
+          <span class="tag">信任</span><h3>信任模块替换模板</h3><p>Free shipping：Orders over $50 ship free. Most orders are processed in 1–3 business days. Need help? Contact hi@keepstore.com.</p></article>
+        <article class="playbook">
+          <span class="tag">技术</span><h3>每周固定检查</h3><p>Search Console 看未收录、Rich Results Test 看商品 Schema、PageSpeed 看 LCP/INP/CLS、Merchant Center 看商品状态。</p></article>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="section-head split">
+        <div><p class="eyebrow">执行路径</p><h2>90 天路线图：先救火，再增长</h2></div>
+        <div class="legend"><span class="dot red"></span>P0 <span class="dot amber"></span>P1 <span class="dot blue"></span>P2</div>
+      </div>
+      <div class="timeline">
+        <article><span class="week">第 1–2 周</span><h3>清除低质量信号</h3><ul><li>删除重复 slogan</li><li>替换占位文案</li><li>修复底部空链接</li><li>首页 Title/H1 重写</li></ul></article>
+        <article><span class="week">第 3–6 周</span><h3>重写核心成交页</h3><ul><li>20 个产品页补详情</li><li>8 个集合页补导购</li><li>图片 alt 与规格表</li><li>FAQ 与内链</li></ul></article>
+        <article><span class="week">第 7–10 周</span><h3>建立内容集群</h3><ul><li>跳绳主题集群</li><li>跑步服饰主题集群</li><li>恢复放松主题集群</li><li>旧博客重写校对</li></ul></article>
+        <article><span class="week">第 11–12 周</span><h3>技术与数据闭环</h3><ul><li>提交 sitemap</li><li>检查商品 Schema</li><li>Merchant Center feed</li><li>Core Web Vitals 优化</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section checklist" id="checklist">
+      <div class="section-head split">
+        <div><p class="eyebrow">互动验收</p><h2>勾选进度，让团队知道做到哪了</h2></div>
+        <div class="progress"><b id="progressText">0%</b><span>完成度</span><div class="progress-bar"><i id="progressBar"></i></div></div>
+      </div>
+      <form id="seoChecklist" class="tasks">
+        <label><input type="checkbox">首页 Title、Meta Description、H1 已改成明确产品方向</label>
+        <label><input type="checkbox">重复 slogan 已从产品页/集合页模板中删除</label>
+        <label><input type="checkbox">所有 “Short content about your store” 已替换成真实政策</label>
+        <label><input type="checkbox">前 20 个重点产品页有 500–800 字描述、规格表、FAQ</label>
+        <label><input type="checkbox">8 个主集合页有 200–400 字分类介绍和 FAQ</label>
+        <label><input type="checkbox">底部无内容链接已删除或补真实落地页</label>
+        <label><input type="checkbox">博客已按跳绳、跑步服饰、恢复放松建立内容集群</label>
+        <label><input type="checkbox">产品页 Product Schema 经 Rich Results Test 检查</label>
+        <label><input type="checkbox">Search Console 已提交 sitemap 并检查未收录页面</label>
+        <label><input type="checkbox">首页和产品页图片已压缩、补 alt、设置宽高</label>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Keepstore SEO Growth Desk · 基于公开页面抓取内容、Google 官方 SEO 建议与独立站增长实践整理</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

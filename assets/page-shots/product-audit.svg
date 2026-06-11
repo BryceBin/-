@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">产品页问题定位图</title><desc id="desc">基于 Fat Burning Weighted Jump Rope 页面公开内容复刻，标注重复口号、图片式详情和占位文案。</desc>
+  <rect width="1200" height="760" rx="36" fill="#f0fdfa"/>
+  <rect x="74" y="50" width="1052" height="654" rx="26" fill="#ffffff" filter="drop-shadow(0 20px 22px rgba(15,23,42,.16))"/>
+  <rect x="74" y="50" width="1052" height="56" rx="26" fill="#111827"/><text x="150" y="86" font-family="Arial" font-size="17" fill="#cbd5e1">keepstore.com/products/10006947</text>
+  <g font-family="Arial">
+    <rect x="112" y="126" width="638" height="54" rx="12" fill="#fff7ed" stroke="#fdba74"/><text x="132" y="159" font-size="18" fill="#9a3412">There is nothing born with but persistence...（重复多次）</text>
+    <rect x="112" y="214" width="438" height="350" rx="22" fill="#dbeafe"/><text x="232" y="394" font-size="24" font-weight="700" fill="#1d4ed8">Product Images</text>
+    <text x="590" y="250" font-size="34" font-weight="800" fill="#111827">Fat Burning Weighted Jump Rope</text>
+    <text x="590" y="294" font-size="26" font-weight="700" fill="#16a34a">Sale price $14.97</text>
+    <text x="590" y="344" font-size="18" fill="#475569">Color: Night Blue · Purple · Gray</text>
+    <rect x="590" y="382" width="260" height="54" rx="27" fill="#111827"/><text x="672" y="416" font-size="18" font-weight="700" fill="#fff">Add to cart</text>
+    <rect x="590" y="486" width="430" height="60" rx="14" fill="#f8fafc" stroke="#cbd5e1"/><text x="612" y="523" font-size="17" fill="#64748b">Description: Image Image Image Image...</text>
+    <rect x="112" y="594" width="914" height="72" rx="16" fill="#fef2f2" stroke="#f87171"/><text x="136" y="624" font-size="18" font-weight="700" fill="#b91c1c">Free shipping / Satisfied or refunded / Top-notch support / Secure payments</text><text x="136" y="650" font-size="17" fill="#b91c1c">Short content about your store · Short content about your store · Short content about your store</text>
+    <rect x="778" y="122" width="312" height="80" rx="18" fill="#fef2f2" stroke="#ef4444" stroke-width="3"/><text x="800" y="154" font-size="18" font-weight="700" fill="#b91c1c">P0：重复口号污染页面</text><text x="800" y="180" font-size="15" fill="#b91c1c">会稀释产品主题与抓取重点</text><path d="M778 162 L704 154" stroke="#ef4444" stroke-width="3"/>
+    <rect x="804" y="470" width="286" height="72" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/><text x="824" y="500" font-size="18" font-weight="700" fill="#1d4ed8">P0：详情只有图片</text><text x="824" y="526" font-size="15" fill="#1d4ed8">补 500–800 字文本说明</text><path d="M804 506 L744 514" stroke="#2563eb" stroke-width="3"/>
+  </g>
+</svg>
