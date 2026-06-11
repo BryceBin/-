@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keepstore SEO 小白互动优化手册</title>
+  <meta name="description" content="一个面向 SEO 零基础用户的 Keepstore.com 互动式诊断与优化路径网站，用图表、流程图和分步骤任务解释现状、问题和改进方法。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="topbar" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回顶部">
+        <span class="brand-mark">K</span>
+        <span>Keepstore SEO Guide</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">菜单</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#map">学习地图</a>
+        <a href="#diagnosis">现状</a>
+        <a href="#pages">页面怎么改</a>
+        <a href="#roadmap">执行路线</a>
+        <a href="#checklist">清单</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">面向完全不懂 SEO、不懂代码的人</p>
+        <h1>把 Keepstore 的 SEO 优化，拆成看得懂、照着做的步骤</h1>
+        <p class="hero-copy">这不是给工程师看的技术文档，而是一份可交互的“小白导航”：先理解 SEO 是什么，再看 Keepstore 当前问题，最后按优先级一步步修。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#map">开始学习</a>
+          <a class="button ghost" href="#roadmap">直接看执行路径</a>
+        </div>
+        <div class="trust-row" aria-label="报告重点">
+          <span>✅ 由浅入深</span>
+          <span>📊 图表解释</span>
+          <span>🧭 明确路径</span>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Keepstore SEO 总体诊断卡片">
+        <div class="score-ring" style="--score:48">
+          <span>48</span>
+          <small>/100</small>
+        </div>
+        <h2>当前状态：基础有了，内容和信任感偏弱</h2>
+        <p>网站已上线并有电商基础结构，但产品页、集合页、博客、底部链接与模板文案还需要系统优化。</p>
+        <div class="mini-bars">
+          <div><span>技术底座</span><meter min="0" max="100" value="70"></meter></div>
+          <div><span>首页表达</span><meter min="0" max="100" value="40"></meter></div>
+          <div><span>产品页内容</span><meter min="0" max="100" value="35"></meter></div>
+          <div><span>博客质量</span><meter min="0" max="100" value="40"></meter></div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro" id="map">
+      <div class="section-heading">
+        <p class="eyebrow">Step 0</p>
+        <h2>先用一张图理解：SEO 到底在优化什么？</h2>
+        <p>对小白来说，SEO 不是“写代码玄学”，而是让搜索引擎和真实用户都能更快看懂：你是谁、卖什么、为什么可信、下一步该买什么。</p>
+      </div>
+
+      <div class="seo-machine" role="img" aria-label="SEO 工作原理流程图：用户搜索、Google 理解页面、展示结果、用户访问和下单">
+        <div class="machine-node user">用户搜索<br><strong>weighted jump rope</strong></div>
+        <div class="machine-arrow">→</div>
+        <div class="machine-node google">Google 判断<br><strong>哪个页面最有用</strong></div>
+        <div class="machine-arrow">→</div>
+        <div class="machine-node site">Keepstore 页面<br><strong>标题/文案/图片/评价</strong></div>
+        <div class="machine-arrow">→</div>
+        <div class="machine-node order">点击访问<br><strong>加购/下单</strong></div>
+      </div>
+
+      <div class="cards three">
+        <article class="card">
+          <span class="icon">🔎</span>
+          <h3>让 Google 看懂</h3>
+          <p>标题、描述、页面文字、结构化数据、站点地图，都是给搜索引擎的“说明书”。</p>
+        </article>
+        <article class="card">
+          <span class="icon">🛒</span>
+          <h3>让用户信任</h3>
+          <p>清楚的产品描述、配送退换说明、真实评价、FAQ，会让用户觉得“这个网站靠谱”。</p>
+        </article>
+        <article class="card">
+          <span class="icon">📈</span>
+          <h3>让生意增长</h3>
+          <p>当页面能回答用户问题，就更容易拿到自然搜索曝光、点击、加购和订单。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="diagnosis">
+      <div class="section-heading">
+        <p class="eyebrow">Step 1</p>
+        <h2>Keepstore 当前 SEO 现状：哪些地方还不错，哪些地方拖后腿？</h2>
+        <p>下面用“体检表”的方式看现状。绿色是基础优势，橙色是需要改，红色是优先救火。</p>
+      </div>
+
+      <div class="dashboard">
+        <article class="diagnosis-card good">
+          <h3>已有优势</h3>
+          <ul>
+            <li>已经是完整电商站，有首页、集合页、产品页、博客页。</li>
+            <li>有 Shopify 风格基础能力，适合继续补 sitemap、schema、Merchant Center。</li>
+            <li>分类方向明确：减脂、增肌、瑜伽、居家训练、运动服饰。</li>
+            <li>已经有博客内容雏形，可扩展成长尾关键词流量池。</li>
+          </ul>
+        </article>
+        <article class="diagnosis-card warning">
+          <h3>需要加强</h3>
+          <ul>
+            <li>首页标题和主文案太抽象，没直接说清楚卖什么。</li>
+            <li>集合页多是产品列表，缺少分类介绍和选购指导。</li>
+            <li>产品 URL、图片 alt、内链、FAQ 还有优化空间。</li>
+            <li>博客需要统一主题、校对英文、链接到产品。</li>
+          </ul>
+        </article>
+        <article class="diagnosis-card danger">
+          <h3>优先救火</h3>
+          <ul>
+            <li>产品页详情过度依赖图片，搜索引擎读不到足够文字。</li>
+            <li>页面出现模板占位文案，例如“Short content about your store”。</li>
+            <li>底部部分链接像占位链接，会影响专业感和信任感。</li>
+            <li>博客存在重复 slogan 和语法问题，降低内容质量。</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="chart-panel">
+        <div>
+          <h3>模块成熟度评分</h3>
+          <p>评分不是 Google 官方分数，而是基于当前页面表现给出的业务诊断，帮助决定先改哪里。</p>
+        </div>
+        <div class="bar-chart" aria-label="SEO 模块评分条形图">
+          <div class="bar-row"><span>技术基础</span><div class="bar"><b style="width:70%"></b></div><em>70</em></div>
+          <div class="bar-row"><span>首页 SEO</span><div class="bar"><b style="width:40%"></b></div><em>40</em></div>
+          <div class="bar-row"><span>集合页 SEO</span><div class="bar"><b style="width:50%"></b></div><em>50</em></div>
+          <div class="bar-row"><span>产品页 SEO</span><div class="bar"><b style="width:35%"></b></div><em>35</em></div>
+          <div class="bar-row"><span>博客内容</span><div class="bar"><b style="width:40%"></b></div><em>40</em></div>
+          <div class="bar-row"><span>信任感</span><div class="bar"><b style="width:40%"></b></div><em>40</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="pages">
+      <div class="section-heading">
+        <p class="eyebrow">Step 2</p>
+        <h2>逐个页面看：首页、产品页、集合页、博客到底怎么改？</h2>
+        <p>点击下面的标签页，可以像翻说明书一样查看每类页面的问题、改法和小白可执行动作。</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="页面类型优化标签">
+        <button class="tab active" type="button" role="tab" aria-selected="true" data-tab="home">首页</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="product">产品页</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="collection">集合页</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-tab="blog">博客</button>
+      </div>
+
+      <div class="tab-panels">
+        <article class="tab-panel active" id="tab-home">
+          <div class="before-after">
+            <div class="before">
+              <h3>现在像这样</h3>
+              <p class="mock-title">Keep store</p>
+              <p class="mock-url">keepstore.com</p>
+              <p class="mock-desc">DISCIPLINE SETS ME FREE... 图片、导航、品牌口号。</p>
+            </div>
+            <div class="after">
+              <h3>建议改成</h3>
+              <p class="mock-title">Keep Store | Fitness Gear, Workout Apparel & Home Exercise Equipment</p>
+              <p class="mock-url">keepstore.com</p>
+              <p class="mock-desc">Shop fitness gear, smart workout devices, running apparel, yoga accessories, and home exercise equipment. Free shipping on orders over $50.</p>
+            </div>
+          </div>
+          <ol class="steps-list">
+            <li><strong>改首页 Title：</strong>让搜索结果一眼看懂你卖健身器材、运动服饰和居家训练用品。</li>
+            <li><strong>新增明确 H1：</strong>例如 “Fitness Gear & Workout Essentials for Home Training”。品牌 slogan 可以保留，但不要只靠 slogan。</li>
+            <li><strong>首屏加入 3 个入口：</strong>Shop Workout Gear、Shop Running Apparel、Shop Yoga & Recovery。</li>
+            <li><strong>修复底部链接：</strong>没有真实内容的 Team、Media、Investors 先删掉或改成真实页面。</li>
+          </ol>
+        </article>
+
+        <article class="tab-panel" id="tab-product">
+          <div class="page-wireframe">
+            <div class="wire-image">产品图<br>Alt: weighted jump rope</div>
+            <div class="wire-copy">
+              <h3>产品页必须回答 6 个问题</h3>
+              <ul>
+                <li>这是什么？Weighted Jump Rope</li>
+                <li>适合谁？新手、居家训练、HIIT 用户</li>
+                <li>解决什么问题？提高有氧训练强度</li>
+                <li>有什么特点？配重、握把、防滑、便携</li>
+                <li>怎么用？3–5 分钟开始，逐渐增加</li>
+                <li>买之前还想知道什么？颜色、尺寸、退换、配送</li>
+              </ul>
+            </div>
+          </div>
+          <div class="template-box">
+            <h3>小白可直接套用的产品描述模板</h3>
+            <p><strong>第一段：</strong>一句话说明产品是什么和主要用途。</p>
+            <p><strong>第二段：</strong>说明适合哪些人，以及为什么比普通产品更有价值。</p>
+            <p><strong>第三段：</strong>列出 5 个卖点：材质、尺寸、场景、颜色、便携性。</p>
+            <p><strong>第四段：</strong>写 FAQ：适合新手吗？室内能用吗？怎么保养？多久发货？</p>
+          </div>
+        </article>
+
+        <article class="tab-panel" id="tab-collection">
+          <div class="collection-diagram">
+            <div class="collection-head">Men's Running & Workout Apparel</div>
+            <div class="collection-copy">200–400 字分类介绍：适合跑步、健身、户外训练的速干运动服饰。</div>
+            <div class="collection-grid">
+              <span>Quick-dry shirts</span><span>Running shorts</span><span>Light jackets</span><span>Compression pants</span>
+            </div>
+            <div class="collection-faq">FAQ：怎么选尺码？夏天跑步穿什么？健身房能穿吗？</div>
+          </div>
+          <ol class="steps-list">
+            <li>不要只放产品列表；每个集合页顶部加一段“这个分类适合谁”。</li>
+            <li>分类名尽量具体，例如 Men's Workout Clothes 比 Men's clothing 更清楚。</li>
+            <li>加 2–4 个常见问题，帮助用户快速做决定。</li>
+            <li>从博客文章链接到集合页，让 Google 知道这个页面很重要。</li>
+          </ol>
+        </article>
+
+        <article class="tab-panel" id="tab-blog">
+          <div class="content-cluster" aria-label="博客内容集群图">
+            <div class="cluster-center">内容中心<br>Home Fitness</div>
+            <div class="cluster-item one">跳绳训练<br>→ Jump Rope 产品</div>
+            <div class="cluster-item two">跑步穿搭<br>→ Apparel 集合</div>
+            <div class="cluster-item three">运动恢复<br>→ Massage Gun 产品</div>
+            <div class="cluster-item four">瑜伽拉伸<br>→ Yoga 集合</div>
+          </div>
+          <ol class="steps-list">
+            <li>每篇博客只回答一个清楚问题，例如 “How to Use a Weighted Jump Rope for Beginners”。</li>
+            <li>文章开头先给答案，再解释原因，避免空泛口号。</li>
+            <li>每篇文章加 3–5 个内链到相关产品或集合页。</li>
+            <li>英文必须校对；减脂、睡眠、健康内容避免绝对化医疗承诺。</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="architecture">
+      <div class="section-heading">
+        <p class="eyebrow">Step 3</p>
+        <h2>网站结构应该像一棵树：越清楚，越容易被理解</h2>
+        <p>小白可以把网站想象成超市：入口是首页，货架是集合页，商品包装是产品页，导购文章是博客。</p>
+      </div>
+
+      <div class="site-tree" role="img" aria-label="Keepstore SEO 推荐网站结构树">
+        <div class="tree-node root">首页<br><small>说明品牌 + 主分类入口</small></div>
+        <div class="tree-branches">
+          <div class="tree-col">
+            <div class="tree-node">Workout Gear</div>
+            <div class="tree-leaf">Jump Rope</div>
+            <div class="tree-leaf">Resistance Bands</div>
+            <div class="tree-leaf">Smart Sports</div>
+          </div>
+          <div class="tree-col">
+            <div class="tree-node">Apparel</div>
+            <div class="tree-leaf">Men's Running</div>
+            <div class="tree-leaf">Women's Workout</div>
+            <div class="tree-leaf">Sports Bras</div>
+          </div>
+          <div class="tree-col">
+            <div class="tree-node">Yoga & Recovery</div>
+            <div class="tree-leaf">Yoga Equipment</div>
+            <div class="tree-leaf">Massage Gun</div>
+            <div class="tree-leaf">Protective Gear</div>
+          </div>
+          <div class="tree-col">
+            <div class="tree-node">Blog</div>
+            <div class="tree-leaf">Beginner Guides</div>
+            <div class="tree-leaf">Buying Guides</div>
+            <div class="tree-leaf">Workout Plans</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="roadmap">
+      <div class="section-heading">
+        <p class="eyebrow">Step 4</p>
+        <h2>按时间推进：从救火到增长的 90 天路线图</h2>
+        <p>如果不知道从哪里开始，就按这个顺序做。先解决明显错误，再优化核心页面，最后做内容增长。</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="time">第 1–2 周</span>
+          <h3>救火：先把“不专业”痕迹清掉</h3>
+          <ul>
+            <li>替换所有占位文案。</li>
+            <li>修复博客重复 slogan 和英文语法。</li>
+            <li>修改首页 title、description、H1。</li>
+            <li>删除或修复底部无效链接。</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span class="time">第 3–6 周</span>
+          <h3>核心页面：让产品和分类能排名</h3>
+          <ul>
+            <li>优化前 20 个重点产品页，每页补 500–800 字。</li>
+            <li>每个主集合页补 200–400 字分类介绍。</li>
+            <li>给主图和详情图添加具体 alt。</li>
+            <li>新增 FAQ、规格表和使用场景。</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span class="time">第 7–12 周</span>
+          <h3>增长：用博客和内链放大流量</h3>
+          <ul>
+            <li>每周发布 2 篇高质量英文文章。</li>
+            <li>建立跳绳、跑步服饰、运动恢复 3 个内容集群。</li>
+            <li>接入 Google Merchant Center 和结构化数据检查。</li>
+            <li>用 Search Console 看曝光、点击和未收录页面。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="checklist">
+      <div class="section-heading">
+        <p class="eyebrow">Step 5</p>
+        <h2>互动执行清单：点一下，看看自己完成了多少</h2>
+        <p>这些都是非技术同学也能跟进的事项。完成后勾选，页面会自动计算进度。</p>
+      </div>
+
+      <div class="checklist-layout">
+        <div class="progress-card">
+          <div class="score-ring small" id="progressRing" style="--score:0"><span id="progressText">0%</span></div>
+          <h3>你的 SEO 修复进度</h3>
+          <p id="progressHint">先从占位文案、首页标题和产品描述开始。</p>
+        </div>
+        <form class="checklist" id="seoChecklist">
+          <label><input type="checkbox" /> 已替换所有“Short content about your store”</label>
+          <label><input type="checkbox" /> 首页 Title 写清楚 fitness gear / workout apparel / home equipment</label>
+          <label><input type="checkbox" /> 首页首屏有明确 H1，不只用品牌口号</label>
+          <label><input type="checkbox" /> 前 20 个产品页都有 500–800 字描述</label>
+          <label><input type="checkbox" /> 产品页新增 FAQ、规格表、使用场景</label>
+          <label><input type="checkbox" /> 主要集合页都有 200–400 字介绍</label>
+          <label><input type="checkbox" /> 所有主图 alt 都写成具体产品名和场景</label>
+          <label><input type="checkbox" /> 博客英文已校对，并添加产品/集合页内链</label>
+          <label><input type="checkbox" /> 已提交 sitemap 到 Google Search Console</label>
+          <label><input type="checkbox" /> 已检查产品结构化数据和 Merchant Center</label>
+        </form>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <h2>最终记住一句话</h2>
+      <p>SEO 不是把网站“骗”到 Google 前面，而是把页面做得更清楚、更可信、更有用。Keepstore 现在最该做的是：把产品讲清楚，把分类讲清楚，把占位内容清掉，把博客和产品连起来。</p>
+      <a class="button primary" href="#checklist">回到执行清单</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Keepstore SEO Interactive Guide · 为 SEO 小白设计的分步优化网站</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
